@@ -8,7 +8,7 @@ const Credentials = () => {
     <>
       <div>
         <div className="avatar mb-5 ">
-          <div className="w-20 rounded-full">
+          <div className="w-12 mr-5 rounded-full">
             <img src={image} alt="" />
           </div>
           <a href="https://www.uni-rostock.de/" className=" flex items-center">
@@ -17,7 +17,7 @@ const Credentials = () => {
           </a>
         </div>
         <div className="avatar">
-          <div className="w-20 rounded-full">
+          <div className="w-12 mr-5 rounded-full">
             <img src={iut} alt="" />
           </div>
           <a

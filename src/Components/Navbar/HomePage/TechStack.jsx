@@ -14,6 +14,7 @@ import {
   FaRegChartBar,
   FaRoute,
 } from "react-icons/fa";
+import axios from "../../../assets/Icons/axios_logo_icon_168545.png";
 import django from "../../../assets/Icons/icons8-django-a-high-level-python-web-framework-that-encourages-rapid-development-24.png";
 import express from "../../../assets/Icons/icons8-express-js-100.png";
 import firebase from "../../../assets/Icons/icons8-firebase-48.png";
@@ -22,6 +23,7 @@ import postgreSQL from "../../../assets/Icons/icons8-postgresql-48.png";
 import restapi from "../../../assets/Icons/icons8-rest-api-64.png";
 import tailwind from "../../../assets/Icons/icons8-tailwindcss-48.png";
 import postman from "../../../assets/Icons/postman.png";
+import reactQuery from "../../../assets/Icons/react-query-logo-1340EA4CE9-seeklogo.com.png";
 
 const TechStack = () => {
   const comfortable = (
@@ -37,6 +39,14 @@ const TechStack = () => {
       <div className="flex items-center ">
         <img src={restapi} alt="" className="mr-2 w-4 " />
         <p>Rest Api</p>
+      </div>
+      <div className="flex items-center ">
+        <img src={reactQuery} alt="" className="mr-2 w-4 " />
+        <p>React Query</p>
+      </div>
+      <div className="flex items-center ">
+        <img src={axios} alt="" className="mr-2 w-4 " />
+        <p>Axios</p>
       </div>
     </>
   );

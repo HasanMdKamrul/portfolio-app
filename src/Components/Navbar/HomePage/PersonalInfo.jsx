@@ -5,18 +5,20 @@ import { MdVerifiedUser } from "react-icons/md";
 const PersonalInfo = () => {
   const developerKbd = (
     <>
-      <kbd className="kbd kbd-sm mr-2 bg-primary">
-        <FaReact className="mr-2 " />
-        <span>React Developer</span>
-      </kbd>
-      <kbd className="kbd kbd-sm mr-2 bg-secondary">
-        <FaNodeJs className="mr-2" />
-        <span>NodeJS/Express Developer</span>
-      </kbd>
-      <kbd className="kbd kbd-sm mr-2 bg-accent">
-        <FaCode className="mr-2" />
-        <span>Full-Stact Developer</span>
-      </kbd>
+      <div className="space-y-2">
+        <kbd className="kbd kbd-sm mr-2 bg-primary">
+          <FaReact className="mr-2 " />
+          <span>React Developer</span>
+        </kbd>
+        <kbd className="kbd kbd-sm mr-2 bg-secondary">
+          <FaNodeJs className="mr-2" />
+          <span>NodeJS/Express Developer</span>
+        </kbd>
+        <kbd className="kbd kbd-sm mr-2 bg-accent">
+          <FaCode className="mr-2" />
+          <span>Full-Stact Developer</span>
+        </kbd>
+      </div>
     </>
   );
 
